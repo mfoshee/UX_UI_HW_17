@@ -1,15 +1,8 @@
-.inline-block {
-    display: inline-block;
-    vertical-align: top;
-    text-align: center;
-}
-
 .logo {
     width: 138px;
     padding: 1%;
     text-align: left;
 }
-
 
 .flexItem {
     text-align: center; 
@@ -26,7 +19,6 @@ body {
     background-position-y: 0;
     background-position: right top, left top;
     font-family: sans-serif;
-
 }
 .navigation {
     text-align: right;
@@ -47,7 +39,6 @@ ul {
 }
 
 .heroImg {
-
     padding: 50px;
     display: right;
 }
@@ -61,6 +52,7 @@ ul {
     padding-left: 180px;
     overflow: hidden;
 }
+
 
 p {
     font-family: sans-serif;
@@ -118,55 +110,6 @@ hr {
     width: 110%;
   }
 
-footer {
-    background-color: white;
-    width: 100%;   
-    margin-top: 100px; 
-    background-image: url("../images/gradient.png");
-    background-repeat: no-repeat;
-    background-position-y: 0;
-    background-position: left top;
-    background-size: 100%;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-footer ul {
-    width: 80%;
-    margin: 0 auto;
-}
-  
-  li {
-    float: right;
-    text-align: center;
-    padding: 14px 16px;
-    font-family: sans-serif;
-    font-size: 16px;
-    color: #000000;
-    opacity: 57%;
-    padding-top: 50px;
-    padding-left: 40px;
-
-  }
-
-.opacity {
-    opacity: 100%;
-}
-
-footer .inline-block {
-    display: inline;
-    align-items: baseline;
-
-}
-
-footer .logo {
-    padding: 100px;
-}
-
-.footer_name {
-    vertical-align: bottom;
-}
-
 .collapsible {
     background-color: white;
     color: #DE007A;
@@ -186,17 +129,58 @@ footer .logo {
   
   .active, .collapsible:hover {
     color: #009FD0;
+    font-style: bold;
   }
-  
-.button {
-    What pieces are we working with and how do we interact with them? What is needed to be assured success? How will the pieces fit together? And finally, can the intended audience complete the puzzle intuitively and without frustration? 
-                
-                As a designer, I love to explore how we interact with a product and how all the pieces fit together to make the connections fit in a way that is simple and straightforward for our users. 
-                
-                Over the past 16 years I have worked collaboratively with cross functional teams 
-                to create design solutions that work for my clients and their customers and communicate their messages concisely and on brand. My keys to success for any project have been listening (to both what is said as well as what is left unsaid), collaboration, and iteration. 
-                
-                My diverse background in visual design, art direction, illustration, marketing, and entrepreneurship makes adapting to the many languages of the design process, from the client, to sales and marketing, to design and development, and everything in between effortless, helping to minimize miscommunication and costly mistakes. 
-                I am a self starter and autonomous worker with a strong work ethic, but also thrive managing or collaborating with a team.  – less
-              
+
+.inline-block {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
 }
+
+footer .inline-block {
+    align-items: baseline;
+}
+
+footer {
+    background-color: white;
+    width: 100%;   
+    margin-top: 100px; 
+    background-image: url("../images/gradient.png");
+    background-repeat: no-repeat;
+    background-position-y: 0;
+    background-position: left top;
+    background-size: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer ul {
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer .logo {
+    padding: 100px;
+}
+
+.footer_name {
+    vertical-align: bottom;
+}
+  
+li {
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #000000;
+    opacity: 57%;
+    padding-top: 50px;
+    padding-left: 40px;
+  }
+
+.opacity {
+    opacity: 100%;
+}
+
