@@ -1,148 +1,7 @@
-.logo {
-    width: 138px;
-    padding: 1%;
-    text-align: left;
-}
-
-.flexItem {
-    text-align: center; 
-    font-family: sans-serif;
-}
-
-.alignItems {
-    align-items: center;
-}
-
-body {
-    background-image: url("../images/puzzle_piece.png"), url("../images/gradient.png");
-    background-repeat: no-repeat;
-    background-position-y: 0;
-    background-position: right top, left top;
-    font-family: sans-serif;
-}
-.navigation {
-    text-align: right;
-}
-
-nav {
-    width:80%;
-}
-
-ul {
-    width: 90%;
-    margin-left: auto;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    vertical-align: top;
-}
-
-.heroImg {
-    padding: 50px;
-    display: right;
-}
-
-.content {
-    width: 60%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 180px;
-    overflow: hidden;
-}
-
-
-p {
-    font-family: sans-serif;
-    display: left;
-    font-size: 18px;
-    line-height: 25px;
-}
-
-/* button {
-    font-family: sans-serif;
-    background-color: white;
-    border: none;
-    color: #DE007A;
-    padding: auto;
-    text-align: right;
-    text-decoration: underline;
-    display: inline-block;
-    font-size: 18px;
-    margin-left: -6px;
-} */
-
-h3 {
-    font-family: gala, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 36px;
-    color: #DE007A;
-    padding-left: 30px;
-}
-
-h2 {
-    color: #DE007A;
-    font-size: 32px;
-    font-family: gala, sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    line-height: 1px;
-}
-
-h1 {
-    color: #DE007A;
-    font-size: 60px;
-    font-family: gala, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    line-height: 1px;
-}
-
-hr {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-width: 1px;
-    border-color:#DE007A;
-    width: 110%;
-  }
-
-.collapsible {
-    background-color: white;
-    color: #DE007A;
-    cursor: pointer;
-    padding: auto;
-    width: 100%;
-    border: none;
-    text-align: right;
-    outline: none;
-    font-size: 18px;
-    font-family: sans-serif;
-    border: none;
-    text-decoration: underline;
-    display: inline-block;
-    margin-left: -6px;
-  }
-  
-  .active, .collapsible:hover {
-    color: #009FD0;
-    font-style: bold;
-  }
-
-.inline-block {
-    display: inline-block;
-    vertical-align: middle;
+.footerGrid {
+    display:grid;
+    grid-template-columns: 5% 5% 29% 14% 11% 8% 9% 5% 5% 5%;
     text-align: center;
-}
-
-footer .inline-block {
-    align-items: baseline;
-}
-
-footer {
     background-color: white;
     width: 100%;   
     margin-top: 100px; 
@@ -152,35 +11,222 @@ footer {
     background-position: left top;
     background-size: 100%;
     padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-footer ul {
-    width: 80%;
-    margin: 0 auto;
-}
-
-footer .logo {
-    padding: 100px;
-}
-
-.footer_name {
-    vertical-align: bottom;
-}
-  
-li {
-    float: right;
-    text-align: center;
-    padding: 14px 16px;
-    font-family: sans-serif;
-    font-size: 16px;
-    color: #000000;
-    opacity: 57%;
-    padding-top: 50px;
-    padding-left: 40px;
   }
 
-.opacity {
-    opacity: 100%;
+
+.childName {
+  grid-area: auto;
+  text-align: left;
+  font-family: gala, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 36px;
+  color: #DE007A;
+  padding-left: 30px;
 }
+
+.navigation {
+  font-family: open-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: #000000;
+  opacity: 57%;
+  padding-top: 65px;
+  text-align: center;
+
+}
+
+.social {
+  padding-top: 55px;
+}
+
+.logo {
+  opacity: 100%;
+}
+
+.headerGrid {
+  display:grid;
+  grid-template-columns: 5% 48% 12% 13% 10% 10%;
+  text-align: left;
+  width: 100%;   
+  background-size: 100%;
+  padding-top: 20px;
+}
+
+body {
+  background-image: url("../images/puzzle_piece.png"), url("../images/gradient.png");
+  background-repeat: no-repeat;
+  background-position-x: 297px 0;
+  background-position-y: 0;
+  background-position: right top, left top;
+  font-family: sans-serif;
+  position: relative;
+}
+
+.heroImg, .case2 {
+  padding-top: 30px;
+  padding-bottom: 30px; 
+  display: right;
+}
+
+.content {
+  width: 65%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  flex-direction: row;
+}
+
+.case1, .case3 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 75%;
+}
+
+.case3 .lineGradient {
+  position: relative;
+left: -100px;
+width: 550px;
+}
+
+
+h2 {
+  color: #DE007A;
+  font-size: 32px;
+  font-family: gala, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 10px;
+  white-space: nowrap;
+}
+
+h1 {
+  color: #DE007A;
+  font-size: 60px;
+  font-family: gala, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  white-space: nowrap;
+  line-height: 1px;
+}
+
+h4 {
+  color: #DE007A;
+  font-size: 30px;
+  font-family: open-sans-condensed, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  white-space: nowrap;
+  line-height: 1px;
+  text-transform: uppercase;
+}
+
+h3{
+  grid-area: auto;
+  font-family: gala, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 48px;
+  color: #DE007A;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h5{
+  grid-area: auto;
+  font-family: gala, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 48px;
+  color: #DE007A;
+  text-align: center;
+  margin-top: 42px;
+}
+
+.lineGradient {
+  display: block;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto; 
+  width: 600px;
+  z-index: 1;
+}
+
+.lineGrad {
+  display: block;
+  z-index: 1;
+  width: 600px;
+}
+
+.centerCase {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -35px;
+  margin-bottom: 70px;
+  width: 400px;
+  height: 5px;
+}
+
+.separator {
+  width: 400px;
+  margin-top: -30px;
+  margin-bottom: 70px;
+}
+
+.myPhoto {
+  align-content: 186px;
+  align-self: flex-start;
+  z-index: -1;
+  float: right;
+  margin: 8px;
+  width: 359px;
+}
+
+.tfcPhoto {
+  align-content: 122px;
+  align-self: flex-start;
+  z-index: -1;
+  float: left;
+  margin: 8px;
+}
+
+.edPhoto {
+  
+  align-self: flex-start;
+  z-index: -1;
+  float: right;
+  margin: 8px;
+}
+
+p {
+  font-family: sans-serif;
+  display: left;
+  font-size: 18px;
+  line-height: 27px;
+  color: #797979;
+}
+
+.bodySpan {
+  width: 150%;
+
+}
+
+.studies {
+  width: 70%;
+  margin: 0 auto;
+}
+
+hr {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 1px;
+  background-image: linear-gradient(red, blue);  
+  width: 110%;
+  z-index: 1;
+} 
 
